@@ -1,0 +1,6 @@
+---
+# This is the main tasks file for nginx role
+ - include: install.yml
+ - include: service.yml
+ - include: configure.yml
+ - include: service.yml
